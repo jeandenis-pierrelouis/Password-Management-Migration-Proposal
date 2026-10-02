@@ -21,7 +21,7 @@ This project is a proposal and feasibility assessment, not an implementation or 
 
 ---
 
-Business Problem
+## Business Problem
 
 IT Glue currently serves as an important repository for credentials required by the Service Desk and IT teams.
 
@@ -40,7 +40,7 @@ The project therefore evaluates whether separating password management from IT G
 
 ---
 
-Proposed Solution
+## Proposed Solution
 
 The proposal evaluates Bitwarden Enterprise as a potential dedicated password-management platform.
 
@@ -57,7 +57,7 @@ Role- and group-based access could then be used to provide employees with the cr
 
 ---
 
-Identity & Employee Lifecycle Integration
+## Identity & Employee Lifecycle Integration
 
 One of the primary areas evaluated in this project is the relationship between password management and existing identity-management processes.
 
@@ -94,7 +94,7 @@ Microsoft Entra ID and Active Directory would continue to control organizational
 
 ---
 
-Migration Considerations
+## Migration Considerations
 
 Migrating an existing credential repository requires more than exporting and importing data.
 
@@ -124,7 +124,7 @@ The proposal also identifies an apparent export limitation of approximately 2,50
 
 ---
 
-Recommended Migration Approach
+## Recommended Migration Approach
 
 The proposed approach uses five phases:
 
@@ -159,7 +159,7 @@ After migration and validation are complete and appropriate stakeholders approve
 
 ---
 
-Risk Areas
+## Risk Areas
 
 The primary risk identified is the handling and migration of a large repository of sensitive credentials.
 
@@ -177,7 +177,7 @@ Operational disruption| Pilot before production migration
 
 ---
 
-Stakeholder Considerations
+## Stakeholder Considerations
 
 Because credential management affects security, identity, operations, and vendor relationships, the proposal identifies several stakeholder groups for review:
 
@@ -192,7 +192,7 @@ Final decisions regarding platform selection, licensing, budget, security requir
 
 ---
 
-Project Deliverables
+## Project Deliverables
 
 This repository contains sanitized materials supporting the proposal:
 
@@ -218,9 +218,9 @@ Additional workflow documentation and examples can be added as the project is de
 
 ---
 
-Skills Demonstrated
+## Skills Demonstrated
 
-Technical Documentation
+### Technical Documentation
 
 - Technical proposal development
 - Process documentation
@@ -228,7 +228,7 @@ Technical Documentation
 - Requirements analysis
 - Technical communication
 
-IT Operations
+### IT Operations
 
 - Credential management
 - Identity and access management
@@ -236,7 +236,7 @@ IT Operations
 - Service Desk operations
 - Onboarding/offboarding workflows
 
-Project Planning
+### Project Planning
 
 - Migration planning
 - Risk identification
@@ -245,7 +245,7 @@ Project Planning
 - Validation planning
 - Change-management considerations
 
-Security
+### Security
 
 - Credential-handling considerations
 - Access-control design
@@ -255,7 +255,7 @@ Security
 
 ---
 
-Project Outcome
+## Project Outcome
 
 This project demonstrates an approach to evaluating a change in IT credential-management architecture while considering technical, operational, security, and organizational requirements.
 
